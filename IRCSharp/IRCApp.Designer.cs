@@ -37,6 +37,7 @@
             this.ClientSize = new System.Drawing.Size(530, 471);
             this.Name = "IRCApp";
             this.Text = "IRCsharp";
+            this.Load += new System.EventHandler(this.IRCApp_Load);
             this.ResumeLayout(false);
 
         }

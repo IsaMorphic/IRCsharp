@@ -16,5 +16,12 @@ namespace IRCSharp
         {
             InitializeComponent();
         }
+
+        private void IRCApp_Load(object sender, EventArgs e)
+        {
+            var irc = new IrcClient("IRCsharp-client", 
+                "chat.freenode.com", "#IRCsharp-testing");
+            irc.Connect();
+        }
     }
 }
