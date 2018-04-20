@@ -53,11 +53,6 @@ namespace IRCSharp.IRC
             }
         }
 
-        public bool SendMessage(IrcMessage message)
-        {
-            
-        }
-
         public void Connect()
         {
             socket.Connect(Server, port);
